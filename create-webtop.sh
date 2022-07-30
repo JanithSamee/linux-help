@@ -6,7 +6,7 @@ read -p "Enter distro name [ubuntu-mate]: " distroname
 distroname=${distroname:-ubuntu-mate}
 read -p "Enter port [8080]: " port
 port=${port:-8080}
-read -p "Enter directory [$(pwd)/webtop]: " dir
+read -p "Enter directory [$pwd/webtop]: " dir
 dir=${dir:-$(pwd)"/webtop"}
 read -p "Enter shm_size [1gb]: " size
 size=${size:-"1gb"}
