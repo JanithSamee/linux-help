@@ -2,10 +2,10 @@
 
 ## Purpose
 
-to simplyfy the installatin and initialization process of linuz server configuration
+To simplify the installation and initialization process of linux server configuration
 
 ## How to use
 
 ```bash
-git clone https://github.com/JanithSamee/linux-help/<script-name> | bash
+wget -O - https://raw.githubusercontent.com/JanithSamee/linux-help/main/<filename> | bash
 ```
